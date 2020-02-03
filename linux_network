@@ -1,0 +1,5 @@
+1、cat /proc/net/snmp | grep -w Udp
+
+2、tcpdump
+  tcpdump -i eth1 port not xxx and port not yyy and port not zzz
+  tcpdump -i eth1 port xxx or port yyy or port zzz  或者  tcpdump -i eth1 port (xxx or yyy or zzz)
